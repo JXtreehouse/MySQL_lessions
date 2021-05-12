@@ -13,6 +13,8 @@ mysql> create database visualization;
 mysql> grant all on visualization.* to datav@localhost identified by 'datav';
 
 ```
+
+- [How To Create a New User and Grant Permissions in MySQL](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
  
  # MySQL学习记录
 - [数据类型与操作数据表](https://segmentfault.com/a/1190000010454836)
