@@ -23,3 +23,5 @@ mysql> grant all on visualization.* to datav@localhost identified by 'datav';
 
 # 最佳实践
 [MySQL best practices to follow as a developer](https://wpdatatables.com/mysql-best-practices/)
+
+[MySQL indexes - what are the best practices?](https://stackoverflow.com/questions/3049283/mysql-indexes-what-are-the-best-practices)
