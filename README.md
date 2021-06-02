@@ -19,3 +19,7 @@ mysql> grant all on visualization.* to datav@localhost identified by 'datav';
  # MySQL学习记录
 - [数据类型与操作数据表](https://segmentfault.com/a/1190000010454836)
 - [MySQL Documentation & Example Databases](https://dev.mysql.com/doc/index-other.html)
+
+
+# 最佳实践
+[MySQL best practices to follow as a developer](https://wpdatatables.com/mysql-best-practices/)
