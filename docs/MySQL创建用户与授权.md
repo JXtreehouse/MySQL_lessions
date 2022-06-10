@@ -2,7 +2,7 @@
  * @Author: zhaokang zhaokang1@xiaomi.com
  * @Date: 2022-06-10 16:40:30
  * @LastEditors: zhaokang zhaokang1@xiaomi.com
- * @LastEditTime: 2022-06-10 16:45:22
+ * @LastEditTime: 2022-06-10 16:48:17
  * @FilePath: /MySQL_lessions/docs/MySQL创建用户与授权.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -70,13 +70,13 @@ SET PASSWORD FOR 'pig'@'%' = PASSWORD("123456");
 
 # 四. 撤销用户权限
 
-```
+```sql
 REVOKE privilege ON databasename.tablename FROM 'username'@'host';
 ```
 说明:
 privilege, databasename, tablename：同授权部分
 
-```
+```sql
 REVOKE SELECT ON *.* FROM 'pig'@'%';
 ```
 
@@ -88,6 +88,6 @@ REVOKE SELECT ON *.* FROM 'pig'@'%';
 
 # 五.删除用户
 
-```
+```sql
 DROP USER 'username'@'host';
 ```
