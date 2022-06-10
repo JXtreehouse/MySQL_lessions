@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-10-26 21:11:37
- * @LastEditTime: 2022-06-01 11:24:59
+ * @LastEditTime: 2022-06-10 16:12:44
  * @LastEditors: zhaokang zhaokang1@xiaomi.com
  * @Description: In User Settings Edit
  * @FilePath: /MySQL_lessions/README.md
@@ -9,7 +9,14 @@
 
 # MySQL 学习记录
 
-[数据类型与操作数据表](https://segmentfault.com/a/1190000010454836)
+- [数据类型与操作数据表](https://segmentfault.com/a/1190000010454836)
+
+- [MySQL学习记录: 常见问题](https://segmentfault.com/a/1190000015729888)
+
+- [MySQL学习记录：SQL编程常见问题](https://segmentfault.com/a/1190000010849822)
+
+- [Ubuntu安装MySQL](https://segmentfault.com/a/1190000010427314)
+- 
 [MySQL Documentation & Example Databases](https://dev.mysql.com/doc/index-other.html)
 
 # 常见命令
@@ -34,6 +41,8 @@ mysql> grant all on visualization.* to datav@localhost identified by 'datav';
 - [How To Create a New User and Grant Permissions in MySQL](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
  
  # MySQL学习记录
+- [一条SQL语句查询是如何执行的](./docs/一条SQL语句查询是如何执行的.md)
+- [一条SQL更新语句是如何执行的]()
 - MySQL数据类型和存储引擎
  - MySQL数据表的基本操作
    - 创建数据表（CREATE TABLE)
