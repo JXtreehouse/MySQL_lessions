@@ -2,7 +2,7 @@
  * @Author: zhaokang zhaokang1@xiaomi.com
  * @Date: 2022-06-10 16:40:30
  * @LastEditors: zhaokang zhaokang1@xiaomi.com
- * @LastEditTime: 2022-06-10 16:48:17
+ * @LastEditTime: 2022-06-10 16:50:50
  * @FilePath: /MySQL_lessions/docs/MySQL创建用户与授权.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -34,9 +34,9 @@ CREATE USER 'pig'@'%';
 GRANT privileges ON databasename.tablename TO 'username'@'host'
 ```
 说明:
-privileges：用户的操作权限，如SELECT，INSERT，UPDATE等，如果要授予所的权限则使用ALL
-databasename：数据库名
-tablename：表名，如果要授予该用户对所有数据库和表的相应操作权限则可用*表示，如*.*
+- privileges：用户的操作权限，如SELECT，INSERT，UPDATE等，如果要授予所的权限则使用ALL
+- databasename：数据库名
+- tablename：表名，如果要授予该用户对所有数据库和表的相应操作权限则可用*表示，如*.*
 
 ```mysql
 GRANT SELECT, INSERT ON test.user TO 'pig'@'%';
