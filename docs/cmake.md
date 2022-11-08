@@ -1,0 +1,1 @@
+cmake . -DCMAKE_INSTALL_PREFIX=/home/work/mysql \ -DINSTALL_DATADIR=/home/work/mysql/data \ -DSYSCONFDIR=/etc/mysql \ -DDEFAULT_CHARSET=utf8 \ -DEFAULT_COLLATION=utf8_general_ci \ -DEXTRA_CHARSETS=all -DWITH_SSL=system \ -DWITH_EMBEDDED_SERVER=1  \ -DENABLED_LOCAL_INFILE=1 \ -DWITH_MYISAM_STORAGE_ENGINE=1 \ -DMYSQL_USER=mysql \ -DMYSQL_UNIX_ADDR=/home/work/mysql/tmp/mysql.sock

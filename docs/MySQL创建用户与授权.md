@@ -1,8 +1,9 @@
+#! https://zhuanlan.zhihu.com/p/581435867
 <!--
  * @Author: zhaokang zhaokang1@xiaomi.com
  * @Date: 2022-06-10 16:40:30
- * @LastEditors: zhaokang zhaokang1@xiaomi.com
- * @LastEditTime: 2022-06-10 16:50:50
+ * @LastEditors: AlexZ33 775136985@qq.com
+ * @LastEditTime: 2022-11-08 11:16:35
  * @FilePath: /MySQL_lessions/docs/MySQL创建用户与授权.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
