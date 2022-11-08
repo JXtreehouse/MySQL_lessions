@@ -1,11 +1,4 @@
-<!--
- * @Author: your name
- * @Date: 2021-10-26 21:11:37
- * @LastEditTime: 2022-06-10 16:12:44
- * @LastEditors: zhaokang zhaokang1@xiaomi.com
- * @Description: In User Settings Edit
- * @FilePath: /MySQL_lessions/README.md
--->
+
 
 # MySQL 学习记录
 
